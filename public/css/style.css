@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+ul,li{list-style: none;}
+.main{
+  width: 600px;margin: 0 auto;
+}
+
+.form .btn{
+  width: 100px;line-height: 30px;margin: 10px 0;border-radius: 5px;
+  text-align: center;cursor: pointer;
+  background-color: #009bd8;color: #FFF;
+}
+.form ul{
+  width: 320px;margin: 0 auto;
+}
+.form ul li{
+  line-height: 30px; margin-bottom: 10px;
+}
+.form ul li label{width: 60px;margin-right: 10px;}
+.form ul li input{height: 30px;line-height: 30px;border: 1px solid #999;padding: 0 1rem}
+.submit-box .btn{margin: 0 auto;}

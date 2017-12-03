@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  //-h1= title
+  .main
+    .form
+      ul
+        li
+          label 账号
+          input(type='search' placeholder='请输入账号')
+        li
+          label 密码
+          input(type='search' placeholder='请输入密码')
+      .submit-box
+        .start-buy.btn 登录
+  script(src='/js/index.js')
